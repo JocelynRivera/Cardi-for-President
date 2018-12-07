@@ -1,0 +1,81 @@
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    color:yellow;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+    color:yellow;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: white;
+    background-image:url("https://cdn.shopify.com/s/files/1/1688/2803/products/ROSE_GOLD2_29ef9177-16a0-4fa5-b192-2c9a9f47af39_530x.jpg?v=1504145380");
+}
+
+#donate {
+    background: lightgrey;
+}
+#eagles {
+    background: lightgrey;
+    color: white;
+}
+
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: yellow;
+    color: black;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
